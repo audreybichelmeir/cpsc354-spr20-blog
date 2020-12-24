@@ -19,7 +19,7 @@ Class Eq a => Ord a where
 
 (<), (<=), (>), (>=) :: a -> a -> Bool
 
-Min, max	           ::  a -> a -> a
+Min, max	       ::  a -> a -> a
 ```
 
 **Booleans**
@@ -38,8 +38,7 @@ data Char = ... deriving (Eq, Ord, Show, Read)
 
 Type declaration:
 ```
-Data Int = …
-		derving (Eq, Ord, Show, Read, Num, Integral)
+Data Int = ... derving (Eq, Ord, Show, Read, Num, Integral)
 ```
 **Lists**
 Type declaration:

@@ -1,5 +1,6 @@
 # Introduction to Haskell
 **Functional programming Vs Imperative Language**
+
 **Functional programming**
 is style of programming in which the basic method of computation is the application of functions to arguments; A functional language is one that supports and encourages the functional style.
 

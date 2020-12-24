@@ -27,13 +27,13 @@ f a b + c*d
 functional application has higher priority than all other operators in the language (but that'll be discussed later)
 For example, f a + b means (f a) + b rather than f (a + b).
 
-Mathematics Haskell
+Mathematics     Haskell
 ```
-f(x) fx
-f(x,y) f x y
-f(g(x)) f (g x)
-f(x,g(y)) f x (g y)
-f(x)g(y) fx*gy
+f(x)            fx
+f(x,y)          f x y
+f(g(x))         f (g x)
+f(x,g(y))       f x (g y)
+f(x)g(y)        fx*gy
 ```
 
 scripting

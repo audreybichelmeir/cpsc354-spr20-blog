@@ -35,7 +35,7 @@ We write [T] for the type of all lists whose elements have type T. For example:
 
 The number of elements in a list is called its **length**.
 
-The list [] of length zero is called the empty list, while lists of length one, such as [False] and [[]] are called **singleton** lists
+The list [] of length zero is called the **empty** list, while lists of length one, such as [False] and [[]] are called **singleton** lists
 
 *** NOTE: Note that [[]] and [] are different lists, the former being a singleton list
 

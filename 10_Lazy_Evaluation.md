@@ -14,6 +14,7 @@
 **Evaluating strategies**
 
 (apply + first)
+
 square n = n * n
 
 square (1+2)

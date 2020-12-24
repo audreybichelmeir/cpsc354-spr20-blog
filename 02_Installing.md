@@ -46,6 +46,7 @@ $ ghci test.hs
 commands to remember
 
 ```:load name``` - load script name
+
 ```:quit``` - quit GHCi
 
 comments

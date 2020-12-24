@@ -28,12 +28,13 @@ functional application has higher priority than all other operators in the langu
 For example, f a + b means (f a) + b rather than f (a + b).
 
 Mathematics Haskell
+```
 f(x) fx
 f(x,y) f x y
 f(g(x)) f (g x)
 f(x,g(y)) f x (g y)
 f(x)g(y) fx*gy
-
+```
 
 scripting
 files need the extension .hs, for example, test.hs

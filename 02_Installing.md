@@ -44,9 +44,10 @@ $ ghci test.hs
 ```
 
 commands to remember
-:load name - load script name
-:quit - quit GHCi
+
+```:load name``` - load script name
+```:quit``` - quit GHCi
 
 comments
 scripts can also contain comments that will be ignored by the compiler
-comments begin with the symbol -- and extend to the end of the current line
+comments begin with the symbol ```--``` and extend to the end of the current line

@@ -21,5 +21,7 @@
 10. Lazy evaluation
 
 **References used in blog**
+
 Graham Hutton - Programming in Haskell-Cambridge University Press
+
 Thompson, Simon - Haskell, the Craft of Functional Programming

@@ -1,4 +1,4 @@
-# 01. Introduction to Haskell
+# 01. Introduction to Haskell pt. 1
 **Functional programming Vs Imperative Language**
 
 **Functional programming**

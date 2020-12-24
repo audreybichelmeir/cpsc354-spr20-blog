@@ -26,7 +26,7 @@ Min, max	           ::  a -> a -> a
 
 Type declaration:
 
-data Bool = False | True deriving (Eq, Ord, Show, Read)
+data Bool = False | True  deriving (Eq, Ord, Show, Read)
 
 **Characters**
 

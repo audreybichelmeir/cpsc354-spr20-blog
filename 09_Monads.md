@@ -50,6 +50,5 @@ eval :: Expr -> Maybe Int
 eval (Val n) = Just n
 eval (Div x y) = do n <- eval x
 m <- eval y
-mn in turn, and then combine their result values x1
 safediv n m
 ```

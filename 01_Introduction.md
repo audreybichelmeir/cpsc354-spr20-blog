@@ -18,18 +18,24 @@ Features of Haskell
 Concise programs
 • having few keywords and by allowing indentation to be used to indicate the structure of programs
 Powerful type system
+
 • requires little type information from the programmer, but allows a large class of incompatibility errors
 in programs to be automatically detected prior to their execution, using a sophisticated process called type inference
 List comprehensions
+
 • comprehension notation that constructs new lists by selecting and filtering elements from one or more existing lists
 Recursive functions
+
 • many computations have a simple and natural definition in terms of recursive functions,
 especially when pattern matching and guards are used to separate different cases into different equations
 Higher-order functions
+
 • functions can freely take functions as arguments and produce functions as results
 Effectful functions
+
 • provides a uniform framework for programming with effects, without compromising the purity of functions, based upon the use of monads.
 Lazy evaluation
+
 • lazy evaluation ensures that programs terminate whenever possible,
 encourages programming in a modular style using intermediate data structures,
 and even allows programming with infinite structures.

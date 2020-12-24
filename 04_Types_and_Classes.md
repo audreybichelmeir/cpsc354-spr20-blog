@@ -21,6 +21,8 @@ This type contains integers such as -100, 0, and 999, with a fixed amount of mem
 
 This type contains all integers, with as much memory as necessary being used for their storage,thus avoiding the imposition of lower and upper limits on the range of numbers
 
+*** NOTE: Apart from the different memory requirements and precision for numbers of type **Int** and **Integer**, the choice between these two types is also one of performance.
+
 **List type**
 
 A list is a sequence of elements of the same type, with the elements being enclosed in square parentheses and separated by commas.

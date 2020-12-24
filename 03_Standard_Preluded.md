@@ -44,12 +44,12 @@ Data Int = ... derving (Eq, Ord, Show, Read, Num, Integral)
 Type declaration:
 ```
 data [a] = [] | a:[a] deriving (Eq, Ord, Show, Read)
-
+```
 Select the first element of a non-empty list:
-
+```
 head :: [a] -> a head (x:_) = x
-
+```
 Select the last element of a non-empty list:
-
+```
 last :: [a] -> a last [x] = x last (_:xs) = last xs
 ```

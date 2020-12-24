@@ -24,6 +24,7 @@ sum [1..10]
 The computation method is function application
 
 **Features of Haskell**
+
 **Concise programs**
 - Having few keywords and by allowing indentation to be used to indicate the structure of programs
 

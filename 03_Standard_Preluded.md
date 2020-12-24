@@ -1,27 +1,35 @@
-3. Standard preluded
+# 03. Standard preluded
+
+**Basic Classes**
+
 Equality types:
-class Eq a where (==), (/=) :: a -> a ->
+class Eq a where
+(==), (/=) :: a -> a -> Bool
 x /= y = not (x == y)
+
 Ordered types:
 Bool
 Class Eq a => Ord a where
 (<), (<=), (>), (>=) :: a -> a -> Bool
-Min, max	               ::  a -> a -> a
+Min, max	           ::  a -> a -> a
 
-Booleans
+**Booleans**
+
 Type declaration:
 data Bool = False | True deriving (Eq, Ord, Show, Read)
 
-Characters
+**Characters**
+
 Type declaration:
 data Char = ... deriving (Eq, Ord, Show, Read)
 
-Numbers
+**Numbers**
+
 Type declaration:
 Data Int = …
 		derving (Eq, Ord, Show, Read, Num, Integral)
 
-Lists
+**Lists**
 Type declaration:
 data [a] = [] | a:[a] deriving (Eq, Ord, Show, Read)
 Select the first element of a non-empty list:

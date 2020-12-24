@@ -6,6 +6,7 @@ is style of programming in which the basic method of computation is the applicat
 in general, programming languages such as Java in which the basic method of computation is changing stored values.
 
 To illustrate this an example, summing the integers 1 to 10
+
 **Java:**
 ```
 int total = 0;

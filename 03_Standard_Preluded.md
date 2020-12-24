@@ -1,4 +1,4 @@
-3. Standard preluded - OK
+3. Standard preluded
 Equality types:
 class Eq a where (==), (/=) :: a -> a ->
 x /= y = not (x == y)

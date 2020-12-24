@@ -12,8 +12,6 @@ x /= y = not (x == y)
 ```
 
 Ordered types:
-
-Bool
 ```
 Class Eq a => Ord a where
 
@@ -41,6 +39,7 @@ Type declaration:
 Data Int = ... derving (Eq, Ord, Show, Read, Num, Integral)
 ```
 **Lists**
+
 Type declaration:
 ```
 data [a] = [] | a:[a] deriving (Eq, Ord, Show, Read)

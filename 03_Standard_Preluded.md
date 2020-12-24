@@ -19,7 +19,7 @@ Class Eq a => Ord a where
 
 (<), (<=), (>), (>=) :: a -> a -> Bool
 
-Min, max	      ::  a -> a -> a
+Min, max	     ::  a -> a -> a
 ```
 
 **Booleans**
